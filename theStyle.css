@@ -1,6 +1,7 @@
 #myheader {
     color: floralwhite;
     font-size: 20px;
+    border: solid 10 px rgb(20, 40, 29);
     font-family: cursive;
     text-align: center;
 }
