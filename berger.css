@@ -1,19 +1,20 @@
 #myheader {
-    color: floralwhite;
-    font-size: 50px;
-    font-family: Verdana,Tahoma, sans-serif;
-    text-align: center;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    vertical-align: middle;
+    border: dashed rgb(185, 29, 185)
+    padding: 35px
 }
 
 body {
-    background-color: rgb(165, 218, 249);
-    padding: 15px;
-    margin: 10px;
-    border: 20px dotted white;
+    background-color: rgb(129, 10, 97);
+    padding:15px
+    
 }
 p {
-     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-     color: aliceblue;
+     border: groove #fe73d9 20px ;
+     font-family: 'Courier New', Courier, monospace;
+     color: #f9f9f9;
      margin: 35px;
 }
 ul {
@@ -21,7 +22,7 @@ ul {
     margin: 0;
     overflow: hidden;
     padding: 0;
-    background-color: #5d5dc2;
+    background-color: #0f0f11;
   }
   li {
     float: left;
@@ -37,7 +38,7 @@ ul {
   }
   
   li a:hover, .dropdown:hover .dropbtn {
-    background-color: rgb(154, 155, 210);
+    background-color: rgb(176, 62, 157);
   }
   
   li.dropdown {
@@ -62,7 +63,7 @@ ul {
   }
   
   .dropdown-content a:hover {
-    background-color: #4b53ef;
+    background-color: #f3a4e7;
 }
   
   .dropdown:hover .dropdown-content {
@@ -71,5 +72,5 @@ ul {
   a {
     display: block;
     padding: 8px;
-    background-color: #5d5dc2;
+    background-color: #0f0f11;
   }
