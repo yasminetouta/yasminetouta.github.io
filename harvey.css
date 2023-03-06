@@ -13,6 +13,29 @@ body {
     text-align: center;
     display: flex;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  background-color: #ce54bc;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: #e4a3e7;
+  border: 1px dashed lavender;
+  text-align: center;
+  font-size: 20px;
+  font-family: fantasy;
+  color: #761968;
+
+}
+.theHover {
+  color: #f3a4e7;
+}
+.theHover:hover {
+  color: #761968;
+  font-size: larger;
+}
 .child {
     float: left;
     flex: 1;

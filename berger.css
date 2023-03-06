@@ -1,9 +1,15 @@
 #myheader {
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     vertical-align: middle;
     border: dashed rgb(185, 29, 185)
     padding: 35px
+}
+div.relative {
+  position: relative;
+  left: 20px;
+  border: 10px double plum;
+  border-radius: 20px;
 }
 
 body {
